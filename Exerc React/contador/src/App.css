@@ -1,0 +1,43 @@
+body{
+  font-size: large
+  
+}
+
+
+
+
+
+.tudo {
+text-align: center;
+}
+
+
+h1{
+width: 250px;
+height: auto;
+font-size: 50px;
+text-align: center;
+}
+
+.bot2{
+background-color: green;
+
+}
+
+
+.bot1{
+background-color: red;
+
+}
+
+
+
+
+h2{
+  font-size: 100px;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 1000px;
+  margin-left: 23%;
+  }

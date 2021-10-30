@@ -1,0 +1,20 @@
+.entrada{
+text-align: center;
+font-size: 170%;
+color:black;
+border-color: black;
+border-width: 5px;
+border-radius: 10px;
+}
+
+.tudo{
+align-items: center;
+text-align: center;
+font-size: 300%;
+}
+
+button{
+background-color: black;
+font-size: 170%;
+color: white;
+}

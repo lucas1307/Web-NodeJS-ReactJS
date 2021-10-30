@@ -22,7 +22,7 @@ export const updateTask = async(request: Request, response: Response) => {
     const {id} = request.params
     const task = await getRepository(Alunos).update(id, request.body)
  
-    if (task.affected == 1){
+    if (task.affected == 0){
         const taskUpdated = await getRepository(Alunos).findOne(id)
         return response.json(taskUpdated);
     }
@@ -48,7 +48,7 @@ export const finishedTask = async(request: Request, response: Response) => {
         Matriculado: true,
     })
  
-    if (task.affected == 1){
+    if (task.affected == 0){
         const taskFinished = await getRepository(Alunos).findOne(id)
         return response.json(taskFinished);
     }
